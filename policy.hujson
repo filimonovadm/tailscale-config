@@ -23,7 +23,6 @@
 // devices that are running macOS and have enabled Tailscale client auto-updating.
 // {"src": ["group:example"], "dst": ["tag:example"], "ip": ["*"], "srcPosture":["posture:autoUpdateMac"]},
 ],
-
 "dns": {
   "routes": {
     "vk.com": ["8.8.8.8", "1.1.1.1"]
