@@ -24,6 +24,12 @@
 // {"src": ["group:example"], "dst": ["tag:example"], "ip": ["*"], "srcPosture":["posture:autoUpdateMac"]},
 ],
 
+"dns": {
+  "routes": {
+    "vk.com": ["8.8.8.8", "1.1.1.1"]
+  }
+},
+
 // Define postures that will be applied to all rules without any specific
 // srcPosture definition.
 // "defaultSrcPosture": [
