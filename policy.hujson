@@ -13,7 +13,7 @@
 // },
 
 // Define grants that govern access for users, groups, autogroups, tags,
-// Tailscale IP addresses, and subnet ranges.
+// Tailscale IP addresses, and subnet subnet ranges.
 "grants": [
 // Allow all connections.
 // Comment this section out if you want to define specific restrictions.
@@ -23,11 +23,6 @@
 // devices that are running macOS and have enabled Tailscale client auto-updating.
 // {"src": ["group:example"], "dst": ["tag:example"], "ip": ["*"], "srcPosture":["posture:autoUpdateMac"]},
 ],
-"dns": {
-  "routes": {
-    "vk.com": ["8.8.8.8", "1.1.1.1"]
-  }
-},
 
 // Define postures that will be applied to all rules without any specific
 // srcPosture definition.
